@@ -1,0 +1,104 @@
+.headerbanner {
+    width:100%;    
+}
+
+.headerbanner {
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+}
+
+html,
+body {
+    /*height: 100%;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    /* Location of the image */
+    background-image: url(background.jpg);    
+    /* Background image doesn’t tile */
+    background-repeat: no-repeat;
+        
+    /* This is what makes the background image rescale based
+on the container’s size */
+    background-size: contain;
+    /* Set a background color that will be displayed
+while the background image is loading */
+    background-color: #000;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.background {
+    width:100%;
+    position:absolute;
+    top:0;
+    z-index:-1;
+}
+
+.backgroundcolour {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    background-color: #000;
+}
+
+.content {
+    padding: 4%;
+    z-index: 2;
+    max-width:800px;
+    text-align:center;    
+    word-break: break-word;
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 24px;
+    }
+}
+
+a {
+    color: #FFF;
+}
+
+a:active {
+    color: #FFF;
+}
+
+.trust img {
+    width: 90%;
+    padding: 5%;
+}
+
+.sectiontitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.twitter img {    
+    position: relative;
+    top: 25px;
+    padding:10px;
+}
+
+
+
+.footericons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+        .footericons img {
+            width: 48px;
+            color: #FFFFFF;
+            margin: 20px;
+        }

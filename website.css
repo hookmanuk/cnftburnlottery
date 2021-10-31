@@ -19,11 +19,11 @@ body {
     font-size: 18px;
     /* Location of the image */
     background-image: url(background.jpg);    
-    /* Background image doesn’t tile */
+    /* Background image doesnâ€™t tile */
     background-repeat: no-repeat;
         
     /* This is what makes the background image rescale based
-on the container’s size */
+on the containerâ€™s size */
     background-size: contain;
     /* Set a background color that will be displayed
 while the background image is loading */
@@ -81,6 +81,11 @@ a:active {
 
 .sectiontitle {
     font-size: 40px;
+    font-weight: bold;
+}
+
+.smallprint .sectiontitle {
+    font-size: 20px;
     font-weight: bold;
 }
 
